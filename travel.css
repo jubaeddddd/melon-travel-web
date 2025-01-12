@@ -72,3 +72,29 @@ nav>ul{
     border-radius: 8px;
     border: none;
 }
+
+
+
+@media screen and (max-width:600px) {
+    header,main{
+        margin: 0;
+    }
+    nav>ul{
+        display: none;
+    }
+    .banner{
+       padding-top: 20px;
+    }
+    .banner-title{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .banner-form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input{
+        width: 200px;
+    }
+}
