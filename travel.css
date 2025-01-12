@@ -103,6 +103,24 @@ nav>ul{
 }
 
 
+/* choose your destination starts here */
+.row img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.destination-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
 
 
 @media screen and (max-width:600px) {
