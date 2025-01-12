@@ -19,6 +19,7 @@ header,main{
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .common-section-heading{
     font-size: 40px;
@@ -29,7 +30,11 @@ header,main{
     font-size: 16px;
     color: rgba(19, 19, 24, 0.7);
 }
-
+.common-sub-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
 
 
 /* nav styles */
@@ -119,6 +124,42 @@ nav>ul{
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 50px;
+}
+
+
+/* why choose us styles */
+.choose-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.choose-box-container img{
+    height: 50px;
+    width: 50px;
+}
+.choose-box{
+    height: 284px;
+    width: 90%;
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.orangy{
+    background-color: #FBF7F3;
+}
+#blueyi{
+    background-color: #F1F8F9;
+}
+.choose-box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.choose-box-container #orangy{
+    margin-left: 315px;
 }
 
 
