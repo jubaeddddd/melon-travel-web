@@ -96,10 +96,10 @@ nav>ul{
 .popular-tours{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
 }
 .popular-tours-description{
-   padding-right: 65px;
+   padding-right: 150px;
 }
 
 
@@ -109,11 +109,13 @@ nav>ul{
     header,main{
         margin: 0;
     }
+    /* nav part */
     nav>ul{
         display: none;
     }
+    /* banner part */
     .banner{
-       padding-top: 20px;
+        padding-top: 20px;
     }
     .banner-title{
         font-size: 25px;
@@ -126,5 +128,22 @@ nav>ul{
     }
     .input{
         width: 200px;
+    }
+    /* popular tour part */
+    .popular-tours-title{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .tour-button{
+        margin-top: 25px;
+    }
+    .popular-tours{
+        flex-direction: column;
+    }
+    .popular-tours-description{
+        padding-right: 0;
+    }
+    .popular-tours-img>img{
+        width: 100%;
     }
 }
