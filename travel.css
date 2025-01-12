@@ -164,4 +164,11 @@ nav>ul{
     .popular-tours-img>img{
         width: 100%;
     }
+    /* destination part */
+    .common-section-heading{
+        font-size: 30px;
+    }
+    .row{
+        flex-direction: column;
+    }
 }
