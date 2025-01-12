@@ -1,0 +1,38 @@
+/* fonts for whole web */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* shared styles */
+header,main{
+    margin: 50px 100px;
+}
+.nav-title-orange,.home{
+    color: #FF5400;
+}
+*{
+    font-family: "Mulish", serif;
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #424247;
+    font-size: 18px;
+}
+nav>ul{
+    display: flex;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800;
+}
