@@ -4,7 +4,7 @@
 
 /* shared styles */
 header,main{
-    margin: 50px 100px;
+    margin: 50px 150px;
 }
 .nav-title-orange,.home{
     color: #FF5400;
@@ -17,7 +17,20 @@ header,main{
     background-color: #FF5400;
     color: white;
     padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
 }
+.common-section-heading{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.common-description{
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+
 
 /* nav styles */
 nav{
@@ -27,10 +40,10 @@ nav{
 }
 nav li{
     list-style: none;
+    margin-right: 20px;
 }
 nav a{
     text-decoration: none;
-    margin-left: 30px;
     color: #424247;
     font-size: 18px;
 }
@@ -41,6 +54,7 @@ nav>ul{
     font-size: 36px;
     font-weight: 800;
 }
+
 
 /* banner styles */
 .banner{
@@ -72,6 +86,22 @@ nav>ul{
     border-radius: 8px;
     border: none;
 }
+
+
+/* popular tours styles */
+.tour-button{
+    font-size: 20px;
+    font-weight: 900;
+}
+.popular-tours{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.popular-tours-description{
+   padding-right: 65px;
+}
+
 
 
 
