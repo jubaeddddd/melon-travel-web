@@ -12,7 +12,12 @@ header,main{
 *{
     font-family: "Mulish", serif;
 }
-
+.common-button{
+    font-size: 16px;
+    background-color: #FF5400;
+    color: white;
+    padding: 10px 20px;
+}
 
 /* nav styles */
 nav{
@@ -25,7 +30,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    margin-right: 40px;
+    margin-left: 30px;
     color: #424247;
     font-size: 18px;
 }
@@ -35,4 +40,35 @@ nav>ul{
 .nav-title{
     font-size: 36px;
     font-weight: 800;
+}
+
+/* banner styles */
+.banner{
+    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 900px;
+    color: white;
+}
+.banner-description{
+    font-size: 16px;
+    color: white;
+}
+.banner-form{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.input{
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    border: none;
 }
