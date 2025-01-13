@@ -382,4 +382,26 @@ nav>ul {
     .perfect-place>video {
         width: 100%;
     }
+
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .newsletter-form{
+        width: 75%;
+    }
+    .background-image{
+        width: 100%;
+    }
+    .overlay {
+        bottom: 15%;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .subtext {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
 }
