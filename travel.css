@@ -189,6 +189,24 @@ nav>ul {
 }
 
 
+/* perfect place styles */
+.perfect-place-content{
+    width: 50%;
+}
+.perfect-place-bullets{
+    font-size: 14px;
+    font-weight: 700;
+}
+.perfect-place{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    gap: 50px;
+}
+.perfect-place>video{
+    width: 50%;
+}
+
 
 @media screen and (max-width:600px) {
 
