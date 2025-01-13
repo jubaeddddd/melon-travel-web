@@ -190,22 +190,105 @@ nav>ul {
 
 
 /* perfect place styles */
-.perfect-place-content{
+.perfect-place-content {
     width: 50%;
 }
-.perfect-place-bullets{
+
+.perfect-place-bullets {
     font-size: 14px;
     font-weight: 700;
 }
-.perfect-place{
+
+.perfect-place {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
     gap: 50px;
     margin-bottom: 100px;
 }
-.perfect-place>video{
+
+.perfect-place>video {
     width: 50%;
+}
+
+
+/* newsletter section */
+.newsletter-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-form {
+    width: 30%;
+    border: 1.5px solid #FF5400;
+    border-radius: 16px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.newsletter-form-form {
+    margin-top: 30px;
+}
+
+.newsletter-form-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 52px;
+    border: none;
+    background-color: #f4f4fd;
+    border-radius: 8px;
+}
+
+.newsletter-form-form button {
+    width: 101.5%;
+    margin-bottom: 20px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 20px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+.newsletter {
+    display: flex;
+    gap: 2%;
+}
+
+.newsletter>img {
+    width: 60%;
+}
+
+.discount {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 55px;
+    right: 15px;
+    background-color: #ff6200;
+    color: white;
+    padding: 10px 20px;
+    transform: rotate(-15deg);
+
+    text-align: center;
+    border-radius: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.subtext {
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 
@@ -286,14 +369,17 @@ nav>ul {
         width: 80%;
         padding-bottom: 20px;
     }
+
     /* perfect tour */
-    .perfect-place{
+    .perfect-place {
         flex-direction: column;
     }
-    .perfect-place-content{
+
+    .perfect-place-content {
         width: 100%;
     }
-    .perfect-place>video{
+
+    .perfect-place>video {
         width: 100%;
     }
 }
