@@ -292,6 +292,32 @@ nav>ul {
 }
 
 
+/* foooter styles */
+#footer{
+    font-size: 10px;
+    margin: 20px auto;
+}
+footer{
+    text-align: center;
+    background-color: #EFEFF2;
+    padding: 140px 0;
+    margin-top: 200px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+.socials li{
+    list-style: none;
+    margin-left: 50px;
+}
+.footer-section{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
 @media screen and (max-width:600px) {
 
     header,
