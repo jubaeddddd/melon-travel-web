@@ -202,6 +202,7 @@ nav>ul {
     justify-content: space-around;
     margin-top: 100px;
     gap: 50px;
+    margin-bottom: 100px;
 }
 .perfect-place>video{
     width: 50%;
@@ -284,5 +285,15 @@ nav>ul {
         height: 100%;
         width: 80%;
         padding-bottom: 20px;
+    }
+    /* perfect tour */
+    .perfect-place{
+        flex-direction: column;
+    }
+    .perfect-place-content{
+        width: 100%;
+    }
+    .perfect-place>video{
+        width: 100%;
     }
 }
